@@ -454,6 +454,7 @@ p { line-height: 1.65; color: #3a4a4e; margin: 0 0 1em; }
   border-color: var(--teal-600);
 }
 .form-note { font-size: 0.75rem; color: #6b7d7f; margin: 0; }
+.hp-field { display: none; }
 
 /* Footer */
 .site-footer {

@@ -244,7 +244,10 @@
           consult your pet's physician alongside our suggested usage.</p>
         <a class="contact-email" href="mailto:neocanineah@gmail.com">neocanineah@gmail.com</a>
       </div>
-      <form class="contact-form" action="mailto:neocanineah@gmail.com" method="post" enctype="text/plain">
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="0a43fa72-5251-4333-80bb-61ce3d91f02b" />
+        <input type="hidden" name="subject" value="New enquiry from neocaninehealth.com" />
+        <input type="checkbox" name="botcheck" class="hp-field" tabindex="-1" autocomplete="off" />
         <label>
           Name
           <input type="text" name="name" required placeholder="Your name" />
@@ -258,7 +261,7 @@
           <textarea name="message" rows="4" required placeholder="Tell us how we can help..."></textarea>
         </label>
         <button type="submit" class="btn btn-primary">Send Message</button>
-        <p class="form-note">This opens your email app addressed to neocanineah@gmail.com.</p>
+        <p class="form-note">We'll get back to you at the email you provide.</p>
       </form>
     </div>
   </section>
